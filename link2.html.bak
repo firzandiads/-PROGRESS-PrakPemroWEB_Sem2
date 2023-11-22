@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Firzandi's Antivirus WEB Present</title>
+</head>
+
+<body>
+
+<h1 align="center">Firzandi's Antivirus WEB Present</h1>
+
+<p align="justify">
+Perkenalkan nama saya Firzandi Ahsan Dwi Styana. Saya merupakan mahasiswa
+Universitas Negeri Yogyakarta, Fakultas Teknik, Jurusan Teknologi Informasi angkatan
+2021.
+
+<p align="justify">
+Saya akan mengenalkan aplikasi baru saya yaitu Zantivirus. Zantivirus adalah sebuah aplikasi proteksi antivirus buatan saya.
+Asal usul untuk penamaan Zantivirus adalah "Zan" yang diambil dari nama tengah saya dari "Firzandi" dan kemudian digabungkan dengan kata "antivirus"
+Berikut beberapa keunggulan dari aplikasi Zantivirus
+	
+</body>
+
+<table style="margin-left:auto;margin-right:auto" border="1" >
+    <thead>
+        <tr>
+            <th>Nomor</th>
+            <th>Kelebihan</th>
+            <th>Berbayar</th>
+			<th>Gratis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <td>Berbagi ke perangkat lain</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Pengelola akun kata sandi</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Privasi koneksi</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Keamanan koneksi</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>Penyimpanan file</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>Mengoptimalkan virus</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>7</th>
+            <td>Keamanan adaptif</td>
+            <th>✓</th>
+			<th>-</th>
+        </tr>
+        <tr>
+            <th>8</th>
+            <td>Perlindungan virus</td>
+            <th>✓</th>
+			<th>✓</th>
+        </tr>
+        <tr>
+            <th>9</th>
+            <td>Membersihkan virus</td>
+            <th>✓</th>
+			<th>✓</th>
+        </tr>
+
+<body>
+
+<p align="justify">
+	Untuk kembali ke halaman pertama
+	<a href="link1.html">Klik di sini</a>
+	
+</body>
+
+</html>

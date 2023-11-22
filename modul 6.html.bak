@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Firzandi's WEB</title>
+	
+	<style>
+
+	.box {
+		width: 80%;
+		height: 160px;
+		background: #29c5f6;
+		border: 5px solid #5579C6;
+
+		-webkit-transition: width 1s ease-in-out;
+		-o-transition: width 1s ease-in-out;
+		-moz-transition: width 1s ease-in-out;
+		transition: width 1s ease-in-out;
+}
+
+	@media (orientation:landscape) {
+		.box {
+		width: 100%;
+	}
+}
+
+
+	.box1 {
+		width: 60%;
+		height: 130px;
+		background: #5579C6;
+		border: 5px solid #3a9bdc;
+
+		-webkit-transition: width 1s ease-in-out;
+		-o-transition: width 1s ease-in-out;
+		-moz-transition: width 1s ease-in-out;
+		transition: width 1s ease-in-out;
+}
+
+	@media (orientation:landscape) {
+		.box1 {
+		width: 100%;
+	}
+}
+
+	.box2 {
+		width: 60%;
+		height: 130px;
+		background: #3a9bdc;
+		border: 5px solid #29c5f6;
+
+		-webkit-transition: width 1s ease-in-out;
+		-o-transition: width 1s ease-in-out;
+		-moz-transition: width 1s ease-in-out;
+		transition: width 1s ease-in-out;
+}
+
+	@media (orientation:landscape) {
+		.box2 {
+		width: 100%;
+	}
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+
+<h1>SELAMAT DATANG</h1>
+<h3 align="right">2 Februari 2022</h3>
+
+<hr />
+Perkenalkan nama saya Firzandi Ahsan Dwi Styana. Saya merupakan mahasiswa Universitas Negeri Yogyakarta, Fakultas Teknik, Jurusan Teknologi Informasi angkatan 2021.
+
+<h3>Warna Biru Menurut WIKIPEDIA</h3>
+<div class="box">
+	<h4>Biru merupakan salah satu dari tiga warna primer additif selain merah dan hijau. Biru juga adalah jenis warna antara sian dan nila. Warna biru merupakan salah satu warna yang sering dijumpai. Biru adalah warna langit dan sering pula digunakan untuk menggambarkan warna laut atau air lain.</h4>
+</div>
+
+<h3>Fakta PSIKOLOGI Warna Biru</h3>
+<div class="box1">
+	<h4>Arti warna biru yang kedua adalah non-konfrontasional.  Sebagai pembawa damai, warna biru tidak bermaksud mengaduk-aduk suasana. Bahkan, warna biru pada dasarnya membenci gagasan menciptakan konflik.</h4>
+</div>
+
+<h3>Warna Biru MENURUT SAYA</h3>
+<div class="box2">
+	<h4>Menurut saya, warna biru memberi kesan sejuk, sedih, kalem, dan tenang. Seperti hal nya ketika kita sedang melihat ke langit yang berwarna biru dan melihat pantai dengan laut yang warna biru, itu akan membuat kita menjadi lebih damai.</h4>
+</div>
+</body>
+
+</html>

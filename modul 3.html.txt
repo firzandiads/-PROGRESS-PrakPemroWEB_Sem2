@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p>
+	Nama Lengkap
+	<input type="text" name="nama" placeholder="Masukkan Nama Lengkap Anda" required />
+	<p>
+	Tanggal Lahir
+	<input type="date" name="birth" required />
+	<p>
+	usia
+	<input type="number" name="tinggi" min="17" max="30" /> (Usia 17-30)
+	<p>
+	Email
+	<input type="email" name="email" placeholder="Masukkan Alamat e-mail Anda" size="30" required />
+	<p>
+	Web
+	<input type="text" name="web" placeholder="http://" />
+	<p>
+	Password
+	<input type="text" name="password" placeholder="Semua karakter, min.8" minlength="8" required />
+	<p>
+	<input type="submit" value="Submit" />
+</body>
+</html>

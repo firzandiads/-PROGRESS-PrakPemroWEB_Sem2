@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Ini baris komentar, tidak diproses -->
+	<title>Firzandi's WEB</title>
+</head>
+
+<body>
+<?php
+echo 'PHP';
+//..
+?>
+
+<p> Dokumen HTML </p>
+
+<?php
+echo 'PHP'
+//..
+?>
+
+<p> Kode <?php echo "PHP";?> di HTML </p>
+
+<p> <font color="blue"> MOCHAMAD REZA NUR ARIFIN </p>
+<p> 21537144032 <font color="black">  </p>
+
+<p> <font color="green">TIPE DATA DAN CASTING<font color="black"> </p>
+
+<?php
+
+$bil = 3;
+echo $bil;
+
+?>
+
+<p>
+
+<?php
+
+print_r($bil);
+
+?>
+
+<p>
+
+<?php
+
+var_dump($bil);
+
+?>
+
+<p>
+
+<?php
+
+var_dump(is_int($bil));
+
+?>
+
+<p>
+
+<?php
+
+$var = 'kamu lama sekali';
+var_dump($var);
+
+?>
+
+<p>
+
+<?php
+
+var_dump(is_string($var));
+
+?>
+
+<p>
+
+<?php
+
+$hebat = null;
+var_dump($hebat);
+
+?>
+
+<p>
+
+<?php
+
+var_dump(is_null($hebat));
+
+?>
+
+<p>
+
+<?php
+
+$str = '123abc';
+$bil = (int) $str;
+
+?>
+
+<p>
+
+<?php
+
+echo gettype($str);
+
+?>
+
+<p>
+
+<?php
+
+echo gettype($bil);
+
+?>
+
+<p> <font color="green">PERNYATAAN SELEKSI<font color="black">  </p>
+
+<?php
+
+$a = 10;
+$b = 5;
+
+if($a > $b){
+	echo 'a lebih besar dari b';
+} elseif ($a == $b){
+	echo 'a sama dengan b';
+} else {
+	echo 'a kurang dari b';
+}
+
+?>
+
+<p>
+
+<?php
+
+$c = 2;
+
+if ($c == 0) {
+	echo "c equals 0";
+} elseif ($c == 1) {
+	echo "c equals 1";
+} elseif ($c == 2) {
+	echo "c equals 2";
+}
+
+?>
+
+<p>
+
+<?php
+
+switch ($c) {
+case 0:
+	echo "c equals 0";
+	break;
+case 1:
+	echo "c equals 1";
+	break;
+case 2:
+	echo "c equals 2";
+	break;
+}
+
+?>
+
+<p> <font color="green">PENGULANGAN<font color="black">  </p>
+
+<?php
+
+$i = 0;
+
+do {
+	echo $i;
+	$i++;
+} while ($i <10);
+
+?>
+
+<p>
+
+<?php
+
+for ($i = 0; $i<10; $i++){
+	echo $i;
+}
+
+$arr = array(1, 2, 3, 4);
+foreach ($arr as $value) {
+	echo $value;
+}
+
+?>
+
+<p> <font color="green">FUNGSI DAN PROSEDUR<font color="black">  </p>
+
+<?php
+
+function do_print() {
+echo time();
+}
+do_print();
+echo '<br />';
+
+?>
+
+<p>
+
+<?php
+
+function jumlah($a, $b) {
+return ($a + $b);
+}
+echo jumlah(7, 3);
+
+?>
+
+<p> 
+
+<?php
+
+function print_teks($teks, $bold = true) {
+echo $bold ? '<b>' .$teks. '</b>' : $teks;
+}
+print_teks('Indonesiaku');
+
+?>
+
+<p>
+
+<?php
+
+print_teks('Indonesiaku', false);
+
+?>
+
+</body>
+
+</html>
